@@ -1,4 +1,4 @@
-# **softrouter？使用lazycat也可以！！！**
+# **软路由？使用lazycat也可以！！！**
 
 > 需要用到lazycat商店中的[dockge](https://appstore.lazycat.cloud/#/shop/detail/cloud.lazycat.app.dockge)
 
