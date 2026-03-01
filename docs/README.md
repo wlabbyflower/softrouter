@@ -2,7 +2,7 @@
 
 ## 指南
 
-1. [懒猫微服软路由部署指南（Dockge + iStoreOS）](guides/zh/istore-softrouter-on-lazycat.md)
+1. [懒猫微服软路由部署指南（Dockge + iStoreOS）](guides/istore-softrouter-on-lazycat.md)
 
 ## 推荐阅读顺序
 

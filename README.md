@@ -2,6 +2,13 @@
 
 在懒猫微服上使用 `Dockge + iStoreOS` 搭建软路由的文档仓库。
 
+## 常用链接
+
+- 主教程：[`docs/guides/istore-softrouter-on-lazycat.md`](docs/guides/istore-softrouter-on-lazycat.md)
+- 文档索引：[`docs/README.md`](docs/README.md)
+- systemd 示例：[`examples/systemd/auto-start-promisc-mode.service`](examples/systemd/auto-start-promisc-mode.service)
+- Dockge 应用页：[LazyCat App Store - Dockge](https://appstore.lazycat.cloud/#/shop/detail/cloud.lazycat.app.dockge)
+
 ## 适用场景
 
 - 想在微服环境里运行 iStoreOS / OpenWrt 类软路由系统
@@ -10,7 +17,7 @@
 
 ## 快速开始
 
-1. 阅读完整教程：[`docs/guides/zh/istore-softrouter-on-lazycat.md`](docs/guides/zh/istore-softrouter-on-lazycat.md)
+1. 阅读完整教程：[`docs/guides/istore-softrouter-on-lazycat.md`](docs/guides/istore-softrouter-on-lazycat.md)
 2. 按教程先开启网卡混杂模式
 3. 在 Dockge 中创建 `macvlan` 网络并部署 iStoreOS 容器
 4. 配置开机自启（含 `promisc on` 自动执行）
@@ -29,8 +36,7 @@
 ├── docs
 │   ├── README.md
 │   └── guides
-│       └── zh
-│           └── istore-softrouter-on-lazycat.md
+│       └── istore-softrouter-on-lazycat.md
 └── examples
     └── systemd
         └── auto-start-promisc-mode.service
@@ -39,4 +45,3 @@
 ## 示例文件
 
 - systemd 服务样例：[`examples/systemd/auto-start-promisc-mode.service`](examples/systemd/auto-start-promisc-mode.service)
-

@@ -132,7 +132,7 @@ mkdir -p ~/.config/systemd/user
 
 2.创建服务文件
 
-可以直接使用仓库示例文件：[`examples/systemd/auto-start-promisc-mode.service`](../../../examples/systemd/auto-start-promisc-mode.service)
+可以直接使用仓库示例文件：[`examples/systemd/auto-start-promisc-mode.service`](../../examples/systemd/auto-start-promisc-mode.service)
 
 或手动创建：`vim auto-start-promisc-mode.service`
 
