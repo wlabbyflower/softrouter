@@ -1,32 +1,36 @@
 # softrouter
 
-在懒猫微服上使用 `Dockge + iStoreOS` 搭建软路由的文档仓库。
+在懒猫微服上部署软路由 / 旁路由的资料仓库，已整合 `Dockge + iStoreOS` 手动方案与 `LZCWrt` 应用方案。
 
-## 常用链接
+## 方案选择
 
-- 主教程：[`docs/guides/istore-softrouter-on-lazycat.md`](docs/guides/istore-softrouter-on-lazycat.md)
-- 文档索引：[`docs/README.md`](docs/README.md)
-- systemd 示例：[`examples/systemd/auto-start-promisc-mode.service`](examples/systemd/auto-start-promisc-mode.service)
-- Dockge 应用页：[LazyCat App Store - Dockge](https://appstore.lazycat.cloud/#/shop/detail/cloud.lazycat.app.dockge)
-
-## 适用场景
-
-- 想在微服环境里运行 iStoreOS / OpenWrt 类软路由系统
-- 需要基于 `macvlan` 将容器接入局域网
-- 希望微服重启后自动恢复网卡混杂模式与容器启动
+| 方案 | 适合场景 | 入口 |
+| --- | --- | --- |
+| `LZCWrt` | 想通过微服应用快速创建 iStoreOS / OpenWrt / ImmortalWrt 旁路由实例 | [安装 LZCWrt](docs/guides/lzcwrt/install.md) |
+| `Dockge + iStoreOS` | 想手动管理 Docker Compose、macvlan 和开机自启 | [Dockge + iStoreOS 部署指南](docs/guides/dockge-istoreos.md) |
 
 ## 快速开始
 
-1. 阅读完整教程：[`docs/guides/istore-softrouter-on-lazycat.md`](docs/guides/istore-softrouter-on-lazycat.md)
-2. 按教程先开启网卡混杂模式
-3. 在 Dockge 中创建 `macvlan` 网络并部署 iStoreOS 容器
-4. 配置开机自启（含 `promisc on` 自动执行）
+1. 确认微服使用有线网络，并准备好管理员权限。
+2. 新用户优先阅读 [`docs/guides/lzcwrt/install.md`](docs/guides/lzcwrt/install.md)，安装仓库内置的 LZCWrt 应用包。
+3. 按 [`docs/guides/lzcwrt/deployment.md`](docs/guides/lzcwrt/deployment.md) 创建旁路由实例。
+4. 如果需要插件示例，继续阅读 [`docs/guides/lzcwrt/openclash.md`](docs/guides/lzcwrt/openclash.md)。
+5. 如果选择手动容器方案，阅读 [`docs/guides/dockge-istoreos.md`](docs/guides/dockge-istoreos.md)。
 
 ## 关键前提
 
-- 微服必须使用有线网络
-- 你需要有 SSH 权限与 `lzc-docker` 命令使用权限
-- 网卡名默认示例为 `enp2s0`，请按你的机器实际网卡名修改
+- 微服必须使用有线网络，旁路由和 `macvlan` 场景不建议走无线网络。
+- LZCWrt 方案要求微服系统版本不低于 `1.5.0`，并且需要管理员操作。
+- Dockge 手动方案需要 SSH 权限、`lzc-docker` 命令权限，并按实际网卡名替换示例里的 `enp2s0`。
+- 创建旁路由实例前，先规划好局域网 IP、网关、子网和 DNS，避免和现有设备冲突。
+
+## 常用链接
+
+- 文档索引：[`docs/README.md`](docs/README.md)
+- LZCWrt 指南索引：[`docs/guides/lzcwrt/README.md`](docs/guides/lzcwrt/README.md)
+- LZCWrt 应用包：[`packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.6.lpk`](packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.6.lpk)
+- systemd 示例：[`examples/systemd/auto-start-promisc-mode.service`](examples/systemd/auto-start-promisc-mode.service)
+- Dockge 应用页：[LazyCat App Store - Dockge](https://appstore.lazycat.cloud/#/shop/detail/cloud.lazycat.app.dockge)
 
 ## 目录结构
 
@@ -36,12 +40,17 @@
 ├── docs
 │   ├── README.md
 │   └── guides
-│       └── istore-softrouter-on-lazycat.md
-└── examples
-    └── systemd
-        └── auto-start-promisc-mode.service
+│       ├── dockge-istoreos.md
+│       └── lzcwrt
+│           ├── README.md
+│           ├── deployment.md
+│           ├── img
+│           ├── install.md
+│           └── openclash.md
+├── examples
+│   └── systemd
+│       └── auto-start-promisc-mode.service
+└── packages
+    └── lzcwrt
+        └── cloud.lazycat.app.lzcwrt-v0.1.6.lpk
 ```
-
-## 示例文件
-
-- systemd 服务样例：[`examples/systemd/auto-start-promisc-mode.service`](examples/systemd/auto-start-promisc-mode.service)
