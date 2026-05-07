@@ -4,9 +4,7 @@
 
 ## 阅读顺序
 
-1. [环境准备：安装 LZCWrt](install.md)
-2. [创建旁路由实例](deployment.md)
-3. [iStoreOS 安装 OpenClash 插件](openclash.md)
+1. [LZCWrt 旁路由完整指南](guide.md)
 
 ## 应用包
 

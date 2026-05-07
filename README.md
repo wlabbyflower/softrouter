@@ -6,16 +6,14 @@
 
 | 方案 | 适合场景 | 入口 |
 | --- | --- | --- |
-| `LZCWrt` | 想通过微服应用快速创建 iStoreOS / OpenWrt / ImmortalWrt 旁路由实例，实现 **全屋科学上网，全屋可以上网** | [安装 LZCWrt](docs/guides/lzcwrt/install.md) |
+| `LZCWrt` | 想通过微服应用快速创建 iStoreOS / OpenWrt / ImmortalWrt 旁路由实例，实现 **全屋科学上网，全屋可以上网** | [LZCWrt 完整指南](docs/guides/lzcwrt/guide.md) |
 | `Dockge + iStoreOS` | 想手动管理 Docker Compose、macvlan 和开机自启 | [Dockge + iStoreOS 部署指南](docs/guides/dockge-istoreos.md) |
 
 ## 快速开始
 
 1. 确认微服使用有线网络，并准备好管理员权限。
-2. 新用户优先阅读 [`docs/guides/lzcwrt/install.md`](docs/guides/lzcwrt/install.md)，安装仓库内置的 LZCWrt 应用包。
-3. 按 [`docs/guides/lzcwrt/deployment.md`](docs/guides/lzcwrt/deployment.md) 创建旁路由实例。
-4. 如果需要插件示例，继续阅读 [`docs/guides/lzcwrt/openclash.md`](docs/guides/lzcwrt/openclash.md)。
-5. 如果选择手动容器方案，阅读 [`docs/guides/dockge-istoreos.md`](docs/guides/dockge-istoreos.md)。
+2. 新用户优先阅读 [`docs/guides/lzcwrt/guide.md`](docs/guides/lzcwrt/guide.md)，完成 LZCWrt 安装、实例创建和插件示例。
+3. 如果选择手动容器方案，阅读 [`docs/guides/dockge-istoreos.md`](docs/guides/dockge-istoreos.md)。
 
 ## 关键前提
 
@@ -43,9 +41,7 @@
 │       ├── dockge-istoreos.md
 │       └── lzcwrt
 │           ├── README.md
-│           ├── deployment.md
-│           ├── install.md
-│           └── openclash.md
+│           └── guide.md
 ├── examples
 │   └── systemd
 │       └── auto-start-promisc-mode.service

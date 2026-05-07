@@ -10,4 +10,4 @@
 
 1. 将 `.lpk` 文件上传到懒猫网盘。
 2. 在微服中安装该应用包。
-3. 按 [`../../docs/guides/lzcwrt/deployment.md`](../../docs/guides/lzcwrt/deployment.md) 创建旁路由实例。
+3. 按 [`../../docs/guides/lzcwrt/guide.md`](../../docs/guides/lzcwrt/guide.md) 创建旁路由实例。
