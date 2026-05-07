@@ -16,9 +16,9 @@
 
 ## 1. 公用配置介绍
 
-![image-20260506143612101](./img/image-20260506143612101-1778050345385-1-1778050376661-3.png)
+![image-20260506143612101](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260506143612101-1778050345385-1-1778050376661-3.png)
 
-<img src="./img/image-20260507094452650.png" alt="image-20260507094452650" style="zoom:80%;" />
+<img src="https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507094452650.png" alt="image-20260507094452650" style="zoom:80%;" />
 
 选项说明：
 
@@ -47,7 +47,7 @@
 
 ### 2.1 创建信息填写
 
-<img src="./img/image-20260507094911454.png" alt="image-20260507094911454" style="zoom:80%;" />
+<img src="https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507094911454.png" alt="image-20260507094911454" style="zoom:80%;" />
 
 **注意：如果您对当前实例的网络环境不太了解，可以直接使用自动探测功能，会为您找到当前网络环境下空闲的IP和相关的网络配置**
 
@@ -58,28 +58,28 @@
 - 点击**进入 LuCI**按钮
 - 复制网络配置中的 IP 地址，将 IP 地址复制到浏览器打开
 
-![image-20260507095345788](./img/image-20260507095345788.png)
+![image-20260507095345788](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507095345788.png)
 
 默认账号密码
 
 - 账号：root
 - 密码：root
 
-![image-20260506152211779](./img/image-20260506152211779.png)
+![image-20260506152211779](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260506152211779.png)
 
-![image-20260507095039141](./img/image-20260507095039141.png)
+![image-20260507095039141](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507095039141.png)
 
 ### 2.3 特别注意
 
 **使用 iStoreOS 软路由实例时，一定不要操作和硬件有关的内容**
 
-![image-20260507095115766](./img/image-20260507095115766.png)
+![image-20260507095115766](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507095115766.png)
 
 ## 3. OpenWrt 软路由实例创建
 
 ### 3.1 创建信息填写
 
-<img src="./img/image-20260507095246849.png" alt="image-20260507095246849" style="zoom:80%;" />
+<img src="https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507095246849.png" alt="image-20260507095246849" style="zoom:80%;" />
 
 **注意：如果您对当前实例的网络环境不太了解，可以直接使用自动探测功能，会为您找到当前网络环境下空闲的IP和相关的网络配置**
 
@@ -90,22 +90,22 @@
 - 点击**进入 LuCI**按钮
 - 复制网络配置中的 IP 地址，将 IP 地址复制到浏览器打开
 
-![image-20260507095320344](./img/image-20260507095320344.png)
+![image-20260507095320344](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507095320344.png)
 
 默认账号密码
 
 - 账号：root
 - 密码：root
 
-![image-20260506152920997](./img/image-20260506152920997.png)
+![image-20260506152920997](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260506152920997.png)
 
-![image-20260507095407770](./img/image-20260507095407770.png)
+![image-20260507095407770](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507095407770.png)
 
 ## 4. ImmortalWrt 软路由实例创建
 
 ### 4.1 创建信息填写
 
-<img src="./img/image-20260507095539442.png" alt="image-20260507095539442" style="zoom:80%;" />
+<img src="https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507095539442.png" alt="image-20260507095539442" style="zoom:80%;" />
 
 **注意：如果您对当前实例的网络环境不太了解，可以直接使用自动探测功能，会为您找到当前网络环境下空闲的IP和相关的网络配置**
 
@@ -116,13 +116,13 @@
 - 点击**进入 LuCI**按钮
 - 复制网络配置中的 IP 地址，将 IP 地址复制到浏览器打开
 
-![image-20260507095604275](./img/image-20260507095604275.png)
+![image-20260507095604275](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507095604275.png)
 
 默认账号密码
 
 - 账号：root
 - 密码：root
 
-![image-20260506153205157](./img/image-20260506153205157.png)
+![image-20260506153205157](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260506153205157.png)
 
-![image-20260507095616802](./img/image-20260507095616802.png)
+![image-20260507095616802](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507095616802.png)

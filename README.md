@@ -6,7 +6,7 @@
 
 | 方案 | 适合场景 | 入口 |
 | --- | --- | --- |
-| `LZCWrt` | 想通过微服应用快速创建 iStoreOS / OpenWrt / ImmortalWrt 旁路由实例 | [安装 LZCWrt](docs/guides/lzcwrt/install.md) |
+| `LZCWrt` | 想通过微服应用快速创建 iStoreOS / OpenWrt / ImmortalWrt 旁路由实例，实现 **全屋科学上网，全屋可以上网** | [安装 LZCWrt](docs/guides/lzcwrt/install.md) |
 | `Dockge + iStoreOS` | 想手动管理 Docker Compose、macvlan 和开机自启 | [Dockge + iStoreOS 部署指南](docs/guides/dockge-istoreos.md) |
 
 ## 快速开始
@@ -44,7 +44,6 @@
 │       └── lzcwrt
 │           ├── README.md
 │           ├── deployment.md
-│           ├── img
 │           ├── install.md
 │           └── openclash.md
 ├── examples
