@@ -156,15 +156,7 @@
 
 ![image-20260506164029747](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260506164029747.png)
 
-请根据当前系统平台选择下载版本。可以通过 SSH 连接微服后执行以下命令查看架构：
-
-```bash
-uname -m
-```
-
-![image-20260506164224693](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260506164224693.png)
-
-如果输出是 `x86_64`，就选择 `x86_64` 平台版本下载。
+选择 `x86_64` 平台版本下载。
 
 ![image-20260506164047087](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260506164047087.png)
 
