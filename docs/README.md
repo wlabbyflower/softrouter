@@ -17,5 +17,5 @@
 
 ## 相关资源
 
-- LZCWrt 应用包：[`../packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.6.lpk`](../packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.6.lpk)
+- LZCWrt 应用包：[`../packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.8.lpk`](../packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.8.lpk)
 - systemd 示例：[`../examples/systemd/auto-start-promisc-mode.service`](../examples/systemd/auto-start-promisc-mode.service)

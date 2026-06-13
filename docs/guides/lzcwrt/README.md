@@ -8,7 +8,7 @@
 
 ## 应用包
 
-- 当前内置包：[`../../../packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.6.lpk`](../../../packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.6.lpk)
+- 当前内置包：[`../../../packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.8.lpk`](../../../packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.8.lpk)
 
 ## 注意事项
 

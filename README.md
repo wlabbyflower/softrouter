@@ -26,7 +26,7 @@
 
 - 文档索引：[`docs/README.md`](docs/README.md)
 - LZCWrt 指南索引：[`docs/guides/lzcwrt/README.md`](docs/guides/lzcwrt/README.md)
-- LZCWrt 应用包：[`packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.6.lpk`](packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.6.lpk)
+- LZCWrt 应用包：[`packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.8.lpk`](packages/lzcwrt/cloud.lazycat.app.lzcwrt-v0.1.8.lpk)
 - systemd 示例：[`examples/systemd/auto-start-promisc-mode.service`](examples/systemd/auto-start-promisc-mode.service)
 - Dockge 应用页：[LazyCat App Store - Dockge](https://appstore.lazycat.cloud/#/shop/detail/cloud.lazycat.app.dockge)
 
@@ -47,5 +47,5 @@
 │       └── auto-start-promisc-mode.service
 └── packages
     └── lzcwrt
-        └── cloud.lazycat.app.lzcwrt-v0.1.6.lpk
+        └── cloud.lazycat.app.lzcwrt-v0.1.8.lpk
 ```
