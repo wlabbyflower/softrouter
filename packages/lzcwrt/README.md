@@ -4,7 +4,7 @@
 
 ## 文件
 
-- [`cloud.lazycat.app.lzcwrt-v0.1.6.lpk`](cloud.lazycat.app.lzcwrt-v0.1.6.lpk)：LZCWrt `v0.1.6` 安装包
+- [`cloud.lazycat.app.lzcwrt-v0.1.8.lpk`](cloud.lazycat.app.lzcwrt-v0.1.8.lpk)：LZCWrt `v0.1.8` 安装包
 
 ## 使用方式
 
