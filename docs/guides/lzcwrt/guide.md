@@ -23,7 +23,7 @@
 
 ### 1.2 将软件包移动到懒猫网盘
 
-![image-20260507094237317](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20260507094237317.png)
+![image.png](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/1369/20261120095833878.png)
 
 ### 1.3 在微服安装 LZCWrt
 
